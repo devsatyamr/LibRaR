@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=2200px">
+  <title>Sign Up</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<div class="back">
+  <body style="background-image:url('—Pngtree—solid color matte background blue_923718.png');">
+  <header> 
+  <nav>
+     <h1 class="logo">LibManage</h1>
+     
+     <ul>
+       <li><a href="" target="_blank">Home</a></li>
+       <li><a href="books.html" target="_blank">Books</a></li>
+       <li><a href="aboutus.html" target="_blank">About us</a></li>
+     </ul>
+     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    
+
+       <button class="openbtn" onclick="openNav()">&#9776;</button>
+       <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="login.php" target="_blank">Log In</a>
+        <a href="signup.html" target="_blank">Sign Up</a>
+        
+        
+      </div>
+     <script>
+        function openNav() {
+          document.getElementById("mySidebar").style.width = "200px";
+          document.getElementById("main").style.marginLeft = "100px";
+        }
+                        
+        function closeNav() {
+          document.getElementById("mySidebar").style.width = "0";
+          document.getElementById("main").style.marginLeft= "0";
+        }
+    </script>
+       
+     
+   </nav>
+  </header>
+<body>
+  <div class="section2">
+   <div class ="form2-box">
+      <form action="">
+          <center><h2 style="color: black;">Sign Up</h2></center> 
+              <div class="inputbox">
+                 
+                    <input type="email" required>
+                    <label for="">Enter your email</label>
+              </div>
+              <div class="inputbox">
+                      
+                    <input type="password" required>
+                    <label for="">Enter your password</label>
+              </div>
+              <div class="inputbox">
+                      
+                    <input type="text" required>
+                    <label for="">Enter your name</label>
+              </div>
+              <div class="inputbox">
+                      
+                    <input type="number" required>
+                    <label for="">Enter your phone number</label>
+              </div>
+              <center><button4>Sign Up</button4></center>
+              <div class="register">
+                    <p>Already have an account?<a href="login.php" target="_blank">Log in</a></p>
+                </div>
+            </form>
+   </div>
+  </div>
+</body>
+  <div id="footer">
+     <div style="margin-left:135px;"><a href="www.facebook.com" target="_blank"><img src="icons8-facebook-30.png"></img></a></div>
+     <div style="margin-left:50px;"><a href="www.linkedin.com" target="_blank"><img src="icons8-linkedin-circled-50.png" style="width: 30px;"></img></a></div>
+     <div style="margin-left:50px;"><a href="www.twitter.com" target="_blank"><img src="icons8-twitter-30.png"></img></a></div>
+      
+     
+</div><hr>
+<div class="copyr">
+  <center><p>©Team X-acker</p></center>
+</div>
+</html>

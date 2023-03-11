@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,300&family=Rubik:wght@500&family=Ubuntu&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  
+}
+ .bg-image{ 
+  position: relative;
+  background-image: url("—Pngtree—solid\ color\ matte\ background\ blue_923718.png");
+  height: 726px;
+  
+  
+}
+.logo{
+  font-family: "Ubuntu", sans-serif;
+  font-size: 40px;
+}
+nav{
+  display: flex;
+  align-items: center;
+  padding: 10px 2%;
+}
+ul{
+  flex: 1;
+  text-align:right;
+}
+nav ul li{
+  font-family: 'Ubuntu', sans-serif;
+  display: inline-block;
+  list-style: none;
+  padding-right: 32px;
+}
+a:link{
+  text-decoration: none;
+}
+.sidebar {
+  float: right;
+  height: 200px; 
+  width: 0; 
+  position: fixed; 
+  z-index: 1; 
+  top: 0;
+  right: 0;
+  background-color:  skyblue; 
+  overflow-x: hidden; 
+  padding-top: 20px; 
+  transition: 0.5s; 
+  
+  }
+.sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #000000;
+    display: block;
+    transition: 0.3s;
+  }
+.sidebar a:hover {
+    color: darkred;
+  }
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+.openbtn {
+    display: flex;
+    float: right;
+    justify-content: flex-end;
+    font-size: 20px;
+    cursor: pointer;
+    background-color:  #FF7000; 
+    color:  #e6c0a3;
+    padding: 4px 15px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 18px;
+  }
+
+/* //loginpage style// */
+/* .back{
+  background-color: lightcoral;
+} */
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+    width: 100%;
+    background: url('peakpx.jpg')no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}    
+.h2{
+    font-size: 2em;
+    color: black;
+    text-align: center;
+}
+.form-box{
+    position: relative;
+    width: 400px;
+    height: 450px;
+    background-color:rgba(255, 255, 255, 0.459);
+    border: 1px solid rgba(255,255,255,0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(3px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.form2-box{
+    position: relative;
+    width: 400px;
+    height: 500px;
+    background-color:rgba(255, 255, 255, 0.459);
+    border: 1px solid rgba(255,255,255,0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(3px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.inputbox{
+    position: relative;
+    margin:30px 0;
+    width: 310px;
+    border-bottom: 2px solid black;
+}
+.inputbox label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    color: black;
+    font-size: 1em;
+    pointer-events: none;
+}
+input:focus ~ label,
+input:valid ~ label{
+top: -5px;
+
+}
+.inputbox input{
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding: 0 35px 0 5px;
+    color: black;
+}
+.inputbox ion-icon{
+    position: absolute;
+    right:8px;
+    color:black;
+    font-size: 1.2em;
+    top: 20px;
+}
+.forget{
+    margin: -15px 0 15px;
+    font-size: 0.9em;
+    color: black;
+    display: flex;
+    justify-content: left;
+}
+.forget label input{
+    margin-right: 3px;
+}
+.forget label a{
+    color: black;
+    text-decoration: none;
+}
+.forget label a:hover{
+    text-decoration: underline;
+}
+button4{
+    width:100%;
+    height: 50%;
+    padding: 8px;
+    border-radius: 10px;
+    background: aliceblue;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+}
+button4:hover{
+    background: skyblue;
+}
+.register{
+    font-size: .9em;
+    color: black;
+    text-align: center;
+    margin: 25px 0 10px;
+}
+.register p a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+.register p a:hover{
+    text-decoration: underline;
+}
+.section2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh;
+}
+.text-container{
+  max-width: 600px;
+  margin-top: 7%;
+  margin-left: 50%;
+}
+.text-container h1{
+  font-family: "";
+  font-size: 90px;
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+.text-container a{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-decoration: none;
+  background: #FF7000;
+  padding: 14px 40px;
+  display: inline-block;
+  color: #fff;
+  font-size: 18px;
+  margin-top: 30px;
+  border-radius: 30px;
+}
+.pic-container{
+  position: absolute;
+  top: 100px;
+  left: 10.5%;
+  width: 200px;
+  /*z-index:-1;*/
+}
+
+
+#bodys
+{
+
+/*background-color: #4682B4; */ 
+display:flex;
+margin-left:3%;
+margin-top:7%;
+z-index:1;}
+.Ayanavo
+{
+    background:white;
+    padding-left:5%;
+    padding-right:5%;
+    padding-top:5%;
+    padding-bottom:5%;
+    border-radius: 10%;;
+}
+.Devsatyam
+{
+    background-color:white;
+    margin-left: 5%;
+    padding-top:5%;
+    padding-bottom:5%;
+    padding-left:5%;
+    padding-right:5%;
+    border-radius:10%;
+}
+.Indrava
+{
+    background-color:white;
+    margin-left: 5%;
+    padding-left:5%;
+    padding-right:5%;
+    padding-top:5%;
+    padding-bottom:5%;
+    border-radius:10%;
+}
+#about
+{
+  font-size: 50px;
+  font-weight: bold;
+}
+
+#check
+{
+    display:flex;
+}
+
+#testing
+{
+  background-color:rgba(127, 255, 163, 0.815);
+}
+.catalogue
+{
+    margin-left: 2%;
+    margin-top:5%;
+    background:transparent;
+    
+    padding-top:3%;
+    padding-bottom:3%;
+    width:250px;
+}
+.pdfs
+{
+    margin-left:1%;
+    
+}
+hr{
+    background-color: rgb(255, 14, 1);
+    width:100%;
+    height:4px;
+}
+a:link
+{
+    text-decoration: none;
+    font-weight: 600;
+}
+a:hover{
+ color:black;
+}
+#footer 
+{
+  font-family: 'Ubuntu', sans-serif;
+  display:flex;
+  padding-top: 110px;
+  text-align:center;
+  padding-left: 535px;
+}
+.copyr{
+  padding: 10px;
+}
+.vl
+{
+  margin-left: 5%;
+  border-left: 2px solid white;
+  height:700px;
+}
